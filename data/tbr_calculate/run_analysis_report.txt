@@ -1,0 +1,106 @@
+subjects x metrics: (25, 152) | groups: {1: 13, 2: 12}
+
+========== Metrics where GROUP 2 IS SUPERIOR (one-sided p < 0.1) ==========
+                       metric  favor_dir  g1_mean  g2_mean  diff_g2_minus_g1_mean  p_two_sided  p_favor_g2  cliffs_delta_g1_vs_g2
+                   c2_tbr_iqr g2_smaller   1.3022   0.6016                -0.7006       0.0043      0.0021                 0.6795
+                    d_tbr_max g2_smaller  54.1576  -6.4292               -60.5868       0.0155      0.0077                 0.5769
+                   c2_tbr_p75 g2_smaller   2.2800   1.3815                -0.8984       0.0240      0.0120                 0.5385
+                  c2_tbr_mean g2_smaller   2.5956   1.2678                -1.3278       0.0276      0.0138                 0.5256
+c2_tbr_leQ33_median_sustain_s  g2_larger   2.0712  63.0024                60.9312       0.0324      0.0162                -0.5385
+                   c2_tbr_std g2_smaller   5.2874   1.3638                -3.9236       0.0414      0.0207                 0.4872
+                c2_tbr_median g2_smaller   1.5058   1.0307                -0.4751       0.0471      0.0236                 0.4744
+   d_tbr_leQ33_mean_sustain_s  g2_larger   0.3689  64.4675                64.0986       0.0586      0.0293                -0.4769
+      c1_tbr_leQ50_prop_focus  g2_larger   0.5005   0.5006                 0.0001       0.0665      0.0333                -0.4295
+                    d_tbr_std g2_smaller   2.7970  -0.3496                -3.1466       0.0771      0.0385                 0.4231
+                   c2_tbr_max g2_smaller  84.9765  18.4567               -66.5197       0.0771      0.0385                 0.4231
+  c2_tbr_leQ33_mean_sustain_s  g2_larger   5.1683  68.3545                63.1862       0.0771      0.0386                -0.4462
+                    d_tbr_iqr g2_smaller   0.2858  -0.1121                -0.3979       0.0866      0.0433                 0.4103
+    c1_tbr_leQ33_median_gap_s g2_smaller   4.8712   3.9510                -0.9202       0.0866      0.0433                 0.4103
+                  c1_tbr_mean g2_smaller   1.9215   1.4061                -0.5154       0.0971      0.0486                 0.3974
+                   c1_tbr_iqr g2_smaller   1.0164   0.7137                -0.3027       0.0971      0.0486                 0.3974
+    d_tbr_leQ50_first_reach_s g2_smaller   3.8974 -23.9369               -27.8344       0.1209      0.0605                 0.3923
+                   c1_tbr_p75 g2_smaller   2.0126   1.5270                -0.4856       0.1211      0.0605                 0.3718
+  c1_tbr_geQ67_mean_sustain_s  g2_larger   3.7031   4.4047                 0.7015       0.1211      0.0605                -0.3718
+   c1_tbr_geQ67_max_sustain_s  g2_larger  16.8982  29.8363                12.9382       0.1347      0.0674                -0.3590
+    d_tbr_leQ50_max_sustain_s  g2_larger  -7.2320 117.4136               124.6456       0.1629      0.0814                -0.3538
+    c1_tbr_leQ50_median_gap_s g2_smaller   3.7679   3.5790                -0.1889       0.1654      0.0827                 0.3333
+
+========== Top 25 by strongest group-2 advantage ==========
+                       metric  favor_dir  g1_mean  g2_mean  diff_g2_minus_g1_mean  p_two_sided  p_favor_g2  cliffs_delta_g1_vs_g2
+                   c2_tbr_iqr g2_smaller   1.3022   0.6016                -0.7006       0.0043      0.0021                 0.6795
+                    d_tbr_max g2_smaller  54.1576  -6.4292               -60.5868       0.0155      0.0077                 0.5769
+                   c2_tbr_p75 g2_smaller   2.2800   1.3815                -0.8984       0.0240      0.0120                 0.5385
+                  c2_tbr_mean g2_smaller   2.5956   1.2678                -1.3278       0.0276      0.0138                 0.5256
+c2_tbr_leQ33_median_sustain_s  g2_larger   2.0712  63.0024                60.9312       0.0324      0.0162                -0.5385
+                   c2_tbr_std g2_smaller   5.2874   1.3638                -3.9236       0.0414      0.0207                 0.4872
+                c2_tbr_median g2_smaller   1.5058   1.0307                -0.4751       0.0471      0.0236                 0.4744
+   d_tbr_leQ33_mean_sustain_s  g2_larger   0.3689  64.4675                64.0986       0.0586      0.0293                -0.4769
+      c1_tbr_leQ50_prop_focus  g2_larger   0.5005   0.5006                 0.0001       0.0665      0.0333                -0.4295
+                    d_tbr_std g2_smaller   2.7970  -0.3496                -3.1466       0.0771      0.0385                 0.4231
+                   c2_tbr_max g2_smaller  84.9765  18.4567               -66.5197       0.0771      0.0385                 0.4231
+  c2_tbr_leQ33_mean_sustain_s  g2_larger   5.1683  68.3545                63.1862       0.0771      0.0386                -0.4462
+                    d_tbr_iqr g2_smaller   0.2858  -0.1121                -0.3979       0.0866      0.0433                 0.4103
+    c1_tbr_leQ33_median_gap_s g2_smaller   4.8712   3.9510                -0.9202       0.0866      0.0433                 0.4103
+                  c1_tbr_mean g2_smaller   1.9215   1.4061                -0.5154       0.0971      0.0486                 0.3974
+                   c1_tbr_iqr g2_smaller   1.0164   0.7137                -0.3027       0.0971      0.0486                 0.3974
+    d_tbr_leQ50_first_reach_s g2_smaller   3.8974 -23.9369               -27.8344       0.1209      0.0605                 0.3923
+                   c1_tbr_p75 g2_smaller   2.0126   1.5270                -0.4856       0.1211      0.0605                 0.3718
+  c1_tbr_geQ67_mean_sustain_s  g2_larger   3.7031   4.4047                 0.7015       0.1211      0.0605                -0.3718
+   c1_tbr_geQ67_max_sustain_s  g2_larger  16.8982  29.8363                12.9382       0.1347      0.0674                -0.3590
+    d_tbr_leQ50_max_sustain_s  g2_larger  -7.2320 117.4136               124.6456       0.1629      0.0814                -0.3538
+    c1_tbr_leQ50_median_gap_s g2_smaller   3.7679   3.5790                -0.1889       0.1654      0.0827                 0.3333
+                c1_tbr_median g2_smaller   1.4375   1.0768                -0.3607       0.2012      0.1006                 0.3077
+   c2_tbr_leQ33_max_sustain_s  g2_larger  34.0107 134.2070               100.1963       0.2036      0.1018                -0.3231
+ d_tbr_leQ25_median_sustain_s  g2_larger   4.8053  59.5080                54.7027       0.2036      0.1018                -0.3231
+
+========== Two-sided p < 0.05 ==========
+                       metric  favor_dir  g1_mean  g2_mean  diff_g2_minus_g1_mean  p_two_sided  p_favor_g2  cliffs_delta_g1_vs_g2
+                   c2_tbr_iqr g2_smaller   1.3022   0.6016                -0.7006       0.0043      0.0021                 0.6795
+                    d_tbr_max g2_smaller  54.1576  -6.4292               -60.5868       0.0155      0.0077                 0.5769
+     c2_tbr_leQ33_eps_per_min  g2_larger   5.2913   2.7807                -2.5106       0.0180      0.9923                 0.5641
+      c2_tbr_leQ33_n_episodes  g2_larger  51.9231  27.0833               -24.8397       0.0193      0.9917                 0.5577
+                   c2_tbr_p75 g2_smaller   2.2800   1.3815                -0.8984       0.0240      0.0120                 0.5385
+                  c2_tbr_mean g2_smaller   2.5956   1.2678                -1.3278       0.0276      0.0138                 0.5256
+      c2_tbr_leQ50_n_episodes  g2_larger  56.7692  31.5000               -25.2692       0.0293      0.9872                 0.5192
+c2_tbr_leQ33_median_sustain_s  g2_larger   2.0712  63.0024                60.9312       0.0324      0.0162                -0.5385
+     c2_tbr_leQ50_eps_per_min  g2_larger   5.7810   3.2312                -2.5498       0.0362      0.9842                 0.5000
+       d_tbr_leQ33_n_episodes  g2_larger  -6.8462 -30.0000               -23.1538       0.0387      0.9831                 0.4936
+      d_tbr_leQ33_eps_per_min  g2_larger  -0.6880  -3.0817                -2.3937       0.0414      0.9819                 0.4872
+                   c2_tbr_std g2_smaller   5.2874   1.3638                -3.9236       0.0414      0.0207                 0.4872
+                c2_tbr_median g2_smaller   1.5058   1.0307                -0.4751       0.0471      0.0236                 0.4744
+
+========== Improvement (delta c2-c1) metrics, top 20 favoring group 2 ==========
+                        metric  favor_dir  g1_mean  g2_mean  diff_g2_minus_g1_mean  p_two_sided  p_favor_g2  cliffs_delta_g1_vs_g2
+                     d_tbr_max g2_smaller  54.1576  -6.4292               -60.5868       0.0155      0.0077                 0.5769
+    d_tbr_leQ33_mean_sustain_s  g2_larger   0.3689  64.4675                64.0986       0.0586      0.0293                -0.4769
+                     d_tbr_std g2_smaller   2.7970  -0.3496                -3.1466       0.0771      0.0385                 0.4231
+                     d_tbr_iqr g2_smaller   0.2858  -0.1121                -0.3979       0.0866      0.0433                 0.4103
+     d_tbr_leQ50_first_reach_s g2_smaller   3.8974 -23.9369               -27.8344       0.1209      0.0605                 0.3923
+     d_tbr_leQ50_max_sustain_s  g2_larger  -7.2320 117.4136               124.6456       0.1629      0.0814                -0.3538
+  d_tbr_leQ25_median_sustain_s  g2_larger   4.8053  59.5080                54.7027       0.2036      0.1018                -0.3231
+     d_tbr_leQ33_max_sustain_s  g2_larger   9.5233 106.4599                96.9366       0.2036      0.1018                -0.3231
+    d_tbr_leQ25_mean_sustain_s  g2_larger   5.5144  64.2506                58.7362       0.2778      0.1389                -0.2769
+     d_tbr_leQ25_max_sustain_s  g2_larger  12.5117  99.8741                87.3625       0.2778      0.1389                -0.2769
+                     d_tbr_p75 g2_smaller   0.2674  -0.1455                -0.4128       0.2888      0.1444                 0.2564
+  d_tbr_leQ33_median_sustain_s  g2_larger  -0.1119  60.7093                60.8212       0.3062      0.1531                -0.2615
+     d_tbr_leQ25_first_reach_s g2_smaller  19.4844 -43.7783               -63.2627       0.4025      0.2012                 0.2154
+                    d_tbr_mean g2_smaller   0.6741  -0.1382                -0.8123       0.4966      0.2483                 0.1667
+     d_tbr_leQ33_first_reach_s g2_smaller  20.4862 -41.7828               -62.2690       0.5149      0.2575                 0.1692
+d_tbr_leQ25_total_time_focus_s  g2_larger   3.1896 101.2073                98.0177       0.5679      0.2840                -0.1410
+        d_tbr_leQ50_mean_gap_s g2_smaller   1.0110   0.8120                -0.1989       0.6402      0.3201                 0.1282
+    d_tbr_leQ50_mean_sustain_s  g2_larger  -0.1700  62.9247                63.0947       0.6418      0.3209                -0.1231
+d_tbr_leQ33_total_time_focus_s  g2_larger  -2.0975  78.4739                80.5714       0.6438      0.3219                -0.1154
+                  d_tbr_median g2_smaller   0.0683  -0.0461                -0.1144       0.6833      0.3417                 0.1026
+
+========== Condition-1 (baseline) comparison, top 10 (sanity: groups should be similar) ==========
+                     metric  favor_dir  g1_mean  g2_mean  diff_g2_minus_g1_mean  p_two_sided  p_favor_g2  cliffs_delta_g1_vs_g2
+    c1_tbr_leQ50_prop_focus  g2_larger   0.5005   0.5006                 0.0001       0.0665      0.0333                -0.4295
+  c1_tbr_leQ33_median_gap_s g2_smaller   4.8712   3.9510                -0.9202       0.0866      0.0433                 0.4103
+                c1_tbr_mean g2_smaller   1.9215   1.4061                -0.5154       0.0971      0.0486                 0.3974
+                 c1_tbr_iqr g2_smaller   1.0164   0.7137                -0.3027       0.0971      0.0486                 0.3974
+                 c1_tbr_p75 g2_smaller   2.0126   1.5270                -0.4856       0.1211      0.0605                 0.3718
+c1_tbr_geQ67_mean_sustain_s  g2_larger   3.7031   4.4047                 0.7015       0.1211      0.0605                -0.3718
+ c1_tbr_geQ67_max_sustain_s  g2_larger  16.8982  29.8363                12.9382       0.1347      0.0674                -0.3590
+    c1_tbr_leQ33_prop_focus  g2_larger   0.3305   0.3303                -0.0002       0.1471      0.9338                 0.3462
+    c1_tbr_geQ67_prop_focus  g2_larger   0.3305   0.3303                -0.0002       0.1471      0.9338                 0.3462
+  c1_tbr_leQ50_median_gap_s g2_smaller   3.7679   3.5790                -0.1889       0.1654      0.0827                 0.3333

@@ -1,0 +1,1 @@
+python src/scripts/stream.py --pshift 48 --fold-top-pitches 36 --cfg 2.0 --top-p 0.9 --eeg --fold-top-pitches 36 --midi-monitor --midi-port-name "SoriBus 2"

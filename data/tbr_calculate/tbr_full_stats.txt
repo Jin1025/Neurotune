@@ -1,0 +1,54 @@
+================================================================================
+TBR Statistical Analysis (7ch MNE Welch PSD)
+  Filtering: bandpass 0.1-50Hz + notch 60Hz
+  TBR = mean(theta) / mean(beta)  (ratio-of-means)
+  7 channels (EEG 1-4,6-8), MNE Welch PSD, No EMA
+  Excluded: S23 only
+  Warmup removed in all steps: first 10s
+  Steps included: calibration, block1, block2
+================================================================================
+
+================================================================================
+  WARMUP 10s REMOVED (Calibration vs Block 1 vs Block 2)
+================================================================================
+  Subjects: sori n=13, neurotune n=12, total=25
+
+  --- 1. Normality Test (Shapiro-Wilk) ---
+     condition   step           W           p     normal?
+          sori      1    0.946952    0.552906         Yes
+          sori      2    0.728071    0.001075          No
+          sori   cali    0.951060    0.614430         Yes
+     neurotune      1    0.877494    0.081409         Yes
+     neurotune      2    0.956219    0.728804         Yes
+     neurotune   cali    0.872473    0.070250         Yes
+  => All groups normal? No
+
+  --- 2. Homogeneity of Variance (Levene) ---
+   step    Levene_F           p    equal var?
+      1    0.747170    0.396299           Yes
+      2    2.095422    0.161235           Yes
+   cali    0.435230    0.515986           Yes
+  => All equal variance? Yes
+
+  --- 3. Mann-Whitney U Test (two-sided) ---
+   step     sori_mean       nt_mean         U           p    sig
+      1      1.921531      1.406084     109.0    0.097120    (*)
+      2      2.595623      1.267844     119.0    0.027601      *
+   cali      2.480560      2.170887      88.0    0.605343     ns
+
+  --- 4. Mixed ANOVA (within=step, between=condition) ---
+        condition  F(1,23)=3.0671  p=0.093219  np2=0.117661  (*)
+             step  F(2,46)=1.9439  p=0.154725  np2=0.077931  ns
+    -> Sphericity violated. GG-corrected p=0.170026, eps=0.738644
+      Interaction  F(2,46)=1.2918  p=0.284543  np2=0.053180  ns
+
+  --- 5. Post-hoc Pairwise Tests ---
+          step  1 vs 2  T=-0.9049  p_unc=0.374494  p_corr=1.000000  hedges=-0.1977  ns
+          step  1 vs cali  T=-2.6056  p_unc=0.015506  p_corr=0.046519  hedges=-0.5429  *
+          step  2 vs cali  T=-0.8864  p_unc=0.384222  p_corr=1.000000  hedges=-0.2188  ns
+     condition  neurotune vs sori  T=-1.7922  p_unc=0.089327  p_corr=nan  hedges=-0.6780  (*)
+  step * condition [step=1]  neurotune vs sori  T=-1.7578  p_unc=0.093065  p_corr=0.279196  hedges=-0.6706  (*)
+  step * condition [step=2]  neurotune vs sori  T=-1.9611  p_unc=0.070113  p_corr=0.210340  hedges=-0.7325  (*)
+  step * condition [step=cali]  neurotune vs sori  T=-0.5057  p_unc=0.618030  p_corr=1.000000  hedges=-0.1967  ns
+
+
